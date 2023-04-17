@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Atributos</title>
+  <!-- JS -->
+  <script>
+
+    // Função
+    function alterarLink() {
+      // Obter o link
+      var link = document.getElementsByTagName("a")[0];
+
+      // Alterar o link
+      link.href = "http://www.linkedin.com/feed";
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <!-- a é uma tag, href é um atributo. É a complementação do a -->
+  <a href="http://www.google.com.br">Clique aqui</a>
+  <button onclick="alterarLink()">Alterar link</button>
+
+</body>
+
+</html>
